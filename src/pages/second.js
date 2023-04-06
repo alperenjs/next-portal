@@ -24,8 +24,7 @@ export default function Home() {
       </Head>
       <main>
         <button onClick={() => navigate()}>To 1</button>
-        <Frame />
-
+        <Frame src="http://alperensozen.com/onedose" />
       </main>
     </>
   );
