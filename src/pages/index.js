@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Portal from "@/hoc/Portal";
 import { useRouter } from "next/router";
+import Frame from "@/components/Frame";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +24,7 @@ export default function Home() {
       </Head>
       <main>
         <button onClick={() => navigate()}>To 2</button>
-        <Portal>
-        </Portal>
+          <Frame />
       </main>
     </>
   );

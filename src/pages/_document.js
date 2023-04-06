@@ -6,9 +6,7 @@ export default function Document() {
       <Head />
       <body>
         <Main />
-        <div id="myportal">
-          <iframe src="http://www.alperensozen.com"></iframe>
-        </div>
+        <div id="myportal"></div>
         <NextScript />
       </body>
     </Html>
