@@ -7,7 +7,7 @@ export default function Document() {
       <body>
         <Main />
         <div id="myportal">
-          <iframe src="http://www.alperensozen.com"></iframe>
+          <iframe width={800} height={600} src="http://www.alperensozen.com/onedose"></iframe>
         </div>
         <NextScript />
       </body>
